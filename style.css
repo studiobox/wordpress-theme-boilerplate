@@ -1,0 +1,37 @@
+/*
+Theme Name: Wordpress Boilerplate
+Theme URI: http://www.dezinersstudio.com/themes/boilerplates/wordpress
+Author: Deziners Studio
+Author URI: http://www.dezinersstudio.com/
+Description: This the basic wordpress theme boilerplate. This theme includes basic wordpress files with bootstrap.
+Version: 1.0
+Tags: wordpress, theme, boilerplate, html, css, php, javascript, jquery
+Text Domain: wordpressboilerplate
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,900,900i');
+
+body {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    background-color: #eaeaea;
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+}
+
+.demo-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.demo-title {
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: thin dashed #666;
+}
